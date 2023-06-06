@@ -9,4 +9,12 @@ div.addEventListener('mouseleave', () => {
     div.classList.remove('color')
 })
 
+div.addEventListener('mouseover', () =>{
+    div.classList.add('font')
+})
+
+div.addEventListener('mouseleave', () =>{
+    div.classList.remove('font')
+})
+
 document.body.appendChild(div);
